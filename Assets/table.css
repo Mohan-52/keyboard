@@ -89,3 +89,14 @@ h3{
 body{
     background-color: #181817;
 }
+@media(min-width:320px){
+  .table-container {
+    margin: 5% auto;
+    width: 80%;
+    background-color: #020202;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px;
+    overflow-x: scroll;
+}
+}

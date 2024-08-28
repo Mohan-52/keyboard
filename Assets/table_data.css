@@ -1,0 +1,40 @@
+th, td {
+    
+    padding: 8px;
+    text-align: center;
+    font-size: 22px;
+    
+    
+}
+.student-img{
+    width: 50px;
+   
+}
+.icon{
+    color:red
+}
+table{
+    margin:0 auto;
+}
+.button-container{
+   text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.btn{
+    padding: 10px;
+    margin:0 25px;
+    border: none;
+    background-color: rgb(20, 147, 231);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.table-container {
+    display: none;
+    text-align: center;
+}
+#Total-students {
+    display: block;
+}

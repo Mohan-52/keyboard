@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assets/table_data.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+</head>
+<body>
+    <div class="button-container">
+        <button class="btn" onclick="showtable('Total-students')">Total Students</button>
+        <button class="btn" onclick="showtable('Passed-students')">Passed Students</button>
+        <button class="btn" onclick="showtable('Failed-students')">Failed Students</button>
+    </div>
+    <div id="Total-students" class="table-container">
+        <h2>Total Students Table</h2>
+        <table>
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>Computers</th>
+                <th>Physics</th>
+                <th>English</th>
+                <th>Sanskrit</th>
+                <th>image</th>
+                <th>Result</th>
+                <th>remove</th>
+            </tr>
+            
+        </thead>
+        <tbody class="table-body">
+            
+
+        </tbody>
+        </table>
+    </div>
+    <div id="Passed-students" class="table-container">
+        <h2>Passed Students</h2>
+        <table >
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Name</th>
+                    <th>Maths</th>
+                    <th>Computers</th>
+                    <th>Physics</th>
+                    <th>English</th>
+                    <th>Sanskrit</th>
+                    <th>image</th>
+                    <th>Result</th>
+                    <th>remove</th>
+                </tr>
+                
+            </thead>
+            <tbody class="table-body-passed">
+                
+
+            </tbody>
+        </table>
+    </div>
+    <div id="Failed-students" class="table-container">
+        <h2>Failed Students</h2>
+        <table >
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>Computers</th>
+                <th>Physics</th>
+                <th>English</th>
+                <th>Sanskrit</th>
+                <th>image</th>
+                <th>Result</th>
+                <th>remove</th>
+            </tr>
+            
+        </thead>
+        <tbody class="table-body-failed">
+            
+
+        </tbody>
+        </table>
+    </div>
+    <script src="/Assets/main.js"></script>
+</body>
+</html>
