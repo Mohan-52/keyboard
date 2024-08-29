@@ -119,7 +119,7 @@ failFilter.forEach((value)=>{
 }); 
 
 function showtable(tableId){
-    var tables = document.querySelectorAll('.table-container');
+    const tables = document.querySelectorAll('.table-container');
     tables.forEach(function(table) {
         table.style.display = 'none';
     });
