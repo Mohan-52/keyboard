@@ -14,6 +14,21 @@
         <button class="btn" onclick="showtable('Total-students')">Total Students</button>
         <button class="btn" onclick="showtable('Passed-students')">Passed Students</button>
         <button class="btn" onclick="showtable('Failed-students')">Failed Students</button>
+        
+        <label for="states">Select State</label>
+        <select id="states" onchange="popularCities()">
+            <option value="">Select State</option>
+            <option value="andhra_pradesh">Andhra Pradesh</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="tamil_nadu">Tamil Nadu</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="kerala">Kerala</option>
+        </select>
+
+        <label for="cities">Select City</label>
+        <select id="cities">
+            <option value="">Select City</option>
+        </select>
     </div>
     <div id="Total-students" class="table-container">
         <h2>Total Students Table</h2>

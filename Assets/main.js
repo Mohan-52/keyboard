@@ -126,3 +126,29 @@ function showtable(tableId){
 
     document.getElementById(tableId).style.display = 'block';
 }
+
+
+const stateCities = {
+    "andhra_pradesh": ["Visakhapatnam", "Vijayawada", "Guntur", "Nellore", "Kurnool"],
+    "karnataka": ["Bengaluru", "Mysuru", "Mangaluru", "Hubballi", "Belagavi"],
+    "tamil_nadu": ["Chennai", "Coimbatore", "Madurai", "Salem", "Tiruchirappalli"],
+    "maharashtra": ["Mumbai", "Pune", "Nagpur", "Nashik", "Aurangabad"],
+    "kerala": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Thrissur", "Kollam"]
+};
+
+function popularCities() {
+    const stateDropdown = document.getElementById("states");
+    const cityDropdown = document.getElementById("cities");
+    const selectedState = stateDropdown.value;
+
+    cityDropdown.innerHTML = '<option value="">Select City</option>';
+
+    if (selectedState in stateCities) {
+        stateCities[selectedState].forEach(function(city) {
+            const option = document.createElement("option");
+            option.value = city;
+            option.text = city;
+            cityDropdown.add(option);
+        });
+    }
+}
