@@ -7,7 +7,7 @@ th, td {
     
 }
 body{
-    background-color: #bde2e3;
+    background-color: rgb(205, 223, 235);
 }
 .student-img{
     width: 50px;
@@ -15,16 +15,16 @@ body{
    
 }
 tr:nth-child(odd) {
-    background-color: #2D9596;  
-    color: #fff;
+    background-color: #FFFFFF;  
+    
    
 }
 tr:nth-child(even) {
-    background-color: #9AD0C2;
-    color: #fff;
+    background-color: #F5F5F5;
+    
 }
 thead, tr, th{
-    background-color: rgb(14, 229, 93);
+    background-color: #cbc8c8;
 }
 tr:hover {
     background-color: #dfaa7e;  
